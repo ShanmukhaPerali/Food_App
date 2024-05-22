@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: rgb(232 226 50);
+}
+
+.logo{
+    width: 80px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li{
+    padding: 13px;
+    margin-left: 10px;
+}
+
+.nav-items{
+    padding-right: 20px;
+}
+
+.rescard-con{
+    background-color: beige;
+    height: 300px;
+    width: 200px;
+    padding: 5px;
+    margin:10px;
+    text-align: center;
+
+}
+
+.rescard-con:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.img-con{
+    width: 100%;
+}
+
+.res-con{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.body{
+    align-items: center;
+    margin: 31px;
+}
+
+.Search{
+    text-align: center;
+}
