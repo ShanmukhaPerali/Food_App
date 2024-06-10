@@ -1,0 +1,92 @@
+const Shimmer = ()=>{
+    return(
+    <div className="shimmer-container">
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+        <div className="shimmer-card">
+            <div className="shimmer-card-photo">
+            </div>
+            <div className="shimmer-card-data">
+            </div>
+        </div>
+    </div>
+    );
+}
+
+export default Shimmer;

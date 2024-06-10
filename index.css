@@ -113,3 +113,26 @@
     margin: 0px;
 }
 
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 70px 10px 70px;
+    margin-top: 50px;
+    /* display: relative; */
+}
+
+.shimmer-card{
+    margin: 15px 10px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.shimmer-card-photo{
+    height: 70%;
+    background-color: #f0f0f0;
+}
+.shimmer-card-data{
+    background-color: #e4d8d8;
+    /* border: 2px solid #979393; */
+    height: 30%;
+}
