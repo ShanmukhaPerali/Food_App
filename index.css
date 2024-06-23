@@ -28,17 +28,19 @@
 .res-con{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 20px;
+    justify-content: space-between;
+    
 }
 
 .rescard-con{
     position: relative;
     /* background-color: beige; */
-    height: 200px;
-    width: 20%;
+    height: 243px;
+    width: 222px;
     /* padding: 5px; */
     border-radius: 5%;
-    margin:2%;
+    margin:10%;
     text-align:left;
 }
 
@@ -106,7 +108,8 @@
 
 .body{
     align-items:normal;
-    margin: 35px 70px 5px 70px;
+    /* margin: 35px 70px 5px 70px; */
+    margin: 30px 86px 10px 40px;
 }
 
 .filter{
