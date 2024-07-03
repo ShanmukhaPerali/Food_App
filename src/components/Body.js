@@ -2,12 +2,14 @@ import ResCard from "./ResCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useInternetStatus from "../utils/useInternetStatus";
 
 const Body=() =>{
     const [listOfRestaurants, setListOfRestaurants] = useState([]);
     const [filteredRestaurants,setFiltredRestaurants] = useState([]);
 
     const [searchText,setSearchText] = useState("");
+    const internetStatus = useInternetStatus();
 
     useEffect(()=>{
         fetchData();
@@ -21,6 +23,10 @@ const Body=() =>{
         setListOfRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFiltredRestaurants(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     };
+
+    if(internetStatus === false)
+        return    <h1>Oops! unable to connect Check ur Internet Connection!!</h1>
+
 
     // console.log("Body rendered");
     return listOfRestaurants.length===0 ? (<Shimmer/>) 

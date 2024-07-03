@@ -53,6 +53,12 @@
 
 }
 
+.res-details-con{
+    text-decoration: none;
+    color: inherit;
+    /* text */
+}
+
 .img-div-con{
     height: 68%;
 }
@@ -74,6 +80,8 @@
     overflow: hidden;
     max-width: 100%;
     margin: 1px;
+    text-decoration: none;
+    color: inherit;
     /* padding: 3% 3%; */
     /* text-justify: auto; */
     /* text-decoration: dotted; */
@@ -152,4 +160,10 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0px 10px;
+}
+
+.User{
+    padding:10px;
+    border: 3px solid gold;
+    /* margin: 1px; */
 }
