@@ -4,12 +4,12 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Header from "./src/components/Header";
 import Body from "./src/components/Body";
 import Error from "./src/components/Error";
-import AboutUs from "./src/components/AboutUs";
+// import AboutUs from "./src/components/AboutUs";
 import ContactUs from "./src/components/ContactUs";
 import RestaurantMenu from "./src/components/RestaurantMenu";
 
 const Grocery = lazy(()=>import("./src/components/Grocery"));
-
+const AboutUs = lazy(()=>import("./src/components/AboutUs"));
 const AppLayout = () =>{
     return(
         <div className="app">
@@ -34,7 +34,7 @@ const appRouter = createBrowserRouter([
             },
             {
                 path:"/aboutus",
-                element:<AboutUs />,
+                element:<Suspense fallback={<h2>loading...</h2>}></Suspense>,
             },
             {
                 path:"/restaurants/:resId",

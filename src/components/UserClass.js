@@ -6,7 +6,7 @@ class UserClass extends React.Component{
 
         this.state = {
             userInfo: {
-                name:"default",
+                name:"defaul",
                 location:"default", 
             }
         };
@@ -30,7 +30,7 @@ class UserClass extends React.Component{
         // console.log("Child Render");
 
         return(
-            <div className="User">
+            <div className="User font-bold">
                 <h3>Name: {name}</h3>
                 <h4>{location}</h4>
                 <h5>Contact: Shanmukha_Perali</h5>
