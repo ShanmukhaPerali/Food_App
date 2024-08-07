@@ -6,9 +6,9 @@ class UserClass extends React.Component{
 
         this.state = {
             userInfo: {
-                name:"defaul",
+                name:"Dummy",
                 location:"default", 
-            }
+            },
         };
 
         // console.log("Child Constructor");
@@ -18,10 +18,11 @@ class UserClass extends React.Component{
         // console.log("Child Component Mounted");
         const data = await fetch("https://api.github.com/users/ShanmukhaPerali");
         const json = await data.json();
-        console.log(json);
+
         this.setState({
             userInfo:json,
-        })
+        });
+        console.log(json);
     }
 
 
