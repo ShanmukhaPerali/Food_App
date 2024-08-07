@@ -11,8 +11,8 @@ const ResCard = (props) => {
               
             </div>
             <div className="res-details-con no-underline text-inherit h-[30%]">
-              <h3 className="resname text-xl font-bold truncate overflow-hidden">{resData.info.name}</h3>
-              <h4 className="ratingTime text-lg font-semibold"><span>{resData.info.avgRating}stars</span> . {resData.info.sla.deliveryTime } Mins</h4>
+              <h3 className="resname text-xl font-bold truncate overflow-hidden mb-0">{resData.info.name}</h3>
+              <h4 className="ratingTime text-lg font-semibold mx-0"><span>{resData.info.avgRating}stars</span> . {resData.info.sla.deliveryTime } Mins</h4>
               <h4 className="resname1 text-base truncate overflow-hidden">{resData.info.cuisines.join(', ')}</h4>
               <h4 className="offerDetail text-left absolute top-[51%] text-2xl font-bold text-white bg-black bg-opacity-60 rounded-bl-lg">{ resData.info.costForTwo }</h4>
             </div>
